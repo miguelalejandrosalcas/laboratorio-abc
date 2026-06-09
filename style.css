@@ -1,7 +1,12 @@
 #abecedario {
     
 }
-
+.contenedor {
+    display: grid;
+    /* Crea 3 columnas: la primera de 200px, la segunda flexible y la tercera de 150px */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Espacio entre columnas */
+}
 .card {
     background: white;
     width: 250px;
