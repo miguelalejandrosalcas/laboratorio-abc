@@ -1,0 +1,14 @@
+.navegador {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filtros {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
