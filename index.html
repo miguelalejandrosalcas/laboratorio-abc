@@ -20,13 +20,19 @@
         </section>
         <section class="filtros">
             <div>
-                <button type="button">Abecedario</button>
+                <button class="btn-filtro" onclick="filtrar('todas')">Abecedario</button>
             </div>
             <div>
-                <button type="button">Vocales</button>
+                <button class="btn-filtro" onclick="filtrar('vocales')">Vocales</button>
             </div>
         </section>
     </nav>
-    
+    <div class="card" data-tipo="vocal">
+        Abecedario
+    </div>
+    <div class="card" data-tipo="consonante">
+        Vocales
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
