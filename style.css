@@ -1,6 +1,4 @@
-#abecedario {
-    
-}
+
 .contenedor {
     display: grid;
     /* Crea 3 columnas: la primera de 200px, la segunda flexible y la tercera de 150px */
@@ -47,7 +45,7 @@ nav {
     border-radius: 8px;
 }
 
-/* SECCIÓN FILTROS */
+
 .filtros {
     background-color: orange;
     display: flex;
