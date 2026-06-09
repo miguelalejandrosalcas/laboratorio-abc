@@ -1,4 +1,4 @@
-let letraClick = document.getElementById('letra-a');
+/* let letraClick = document.getElementById('letra-a');
 
 letraClick.addEventListener('click', function() {
     const nuevaCard = document.createElement('div');
@@ -14,4 +14,20 @@ letraClick.addEventListener('click', function() {
             </div>
         </div>
         `;
-})
+}) */
+
+
+//Contador de navegador por interaccion
+
+let contador = 0;
+
+function voltear(card) {
+    console.log("click funcionando"); 
+
+    const contadorSpan = document.getElementById("interaccion");
+
+    contador++;
+    contadorSpan.textContent = contador;
+
+    card.classList.toggle("volteada");
+}
